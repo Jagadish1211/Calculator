@@ -36,7 +36,7 @@ catch{
         </div>
         <div className="button_area">
           <button name="Clear" onClick={Clearall} className="button clear_btn">Clear</button>
-          <button name="Del"  onClick={Delete}  className="button">Del</button>
+          <button name="Del"  onClick={Delete}  className="button Del">Del</button>
           <button name="/"  onClick={Handleclick}  className="button">/</button>
           <button name="7"  onClick={Handleclick}  className="button">7</button>
           <button name="8"  onClick={Handleclick}  className="button">8</button>

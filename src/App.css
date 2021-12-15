@@ -1,46 +1,55 @@
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
+body{
+  display: flexbox;
+  margin: 8rem 30rem;
+  background-color:cornsilk;
+}
 
 .container{
   background-color: black;
   width:25em;
-  height: 27em;
+  height: 29em;
   border: 1em black;
-  
+  border-radius: 0.5rem;
+  padding-top: 0.2rem;
 }
 
+
 input{
-width:24.5rem;
+width:23.5rem;
 font-size: 2rem;
-height: 5rem;
+height: 4.5rem;
 background-color: #383838;
 color:white;
 text-align: end;
+border-radius: 0.5rem;
+margin: 0.28rem 0.08rem 0.28rem 0.42rem;
 }
 
 .buttonarea{
   display: flexbox;
   flex-flow: row wrap;
   justify-content: center;
-  margin:2px;
+  
 
 }
 
 .button{
-  width:6.25em;
-  height: 4.33em;
+  width:5.65rem;
+  height: 4.2rem;
   background-color: #202020;
-  font-size: 1em;
-  border-color:#101010;
-  border-radius: 10%;
+  font-size: 1.2rem;
+  border: black 1rem;
+  border-radius: 0.3rem;
   color: white;
+  margin: 0.2rem 0.08rem 0.2rem 0.42rem;
 }
 
 .clear_btn{
-  width:50%;
+  width:47%;
+  background-color: orange;
 }
 
+.Del {
+  background-color: orange;
+}
